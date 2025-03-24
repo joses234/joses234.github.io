@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo sobre el Alcohol</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f5f5f5;
+        }
+        header {
+            background: linear-gradient(to right, #bd12a9, #ee03b3);
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav li {
+            padding: 1rem;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #ddd;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1rem;
+        }
+        section {
+            background-color: white;
+            margin-bottom: 1.5rem;
+            padding: 1.5rem;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        h1, h2, h3 {
+            color: #1e3c72;
+        }
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: space-between;
+        }
+        .card {
+            flex: 0 0 calc(33% - 20px);
+            min-width: 250px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 1rem;
+            margin-bottom: 1rem;
+        }
+        .institution-card {
+            border-left: 4px solid #0af425;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            background-color: #f9f9f9;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+            .card {
+                flex: 0 0 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>El Alcohol</h1>
+        <p>Información científica, histórica y de salud pública</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#historia">Historia</a></li>
+            <li><a href="#clasificacion">Clasificación</a></li>
+            <li><a href="#efectos">Efectos</a></li>
+            <li><a href="#ayuda">Instituciones de Ayuda</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <section id="historia">
+            <h2>Antecedentes Históricos</h2>
+            <p>El alcohol ha sido parte de la cultura humana durante miles de años, con evidencia de bebidas fermentadas desde el 7000 a.C.</p>
+            
+            <div class="card-container">
+                <div class="card">
+                    <h3>Civilizaciones Antiguas</h3>
+                    <p>En Mesopotamia y Egipto, la cerveza era una bebida básica, considerada un regalo de los dioses y parte fundamental de ceremonias religiosas.</p>
+                </div>
+                <div class="card">
+                    <h3>Edad Media</h3>
+                    <p>Los monasterios medievales perfeccionaron la producción de cerveza y vino. El alcohol era más seguro que el agua en muchas regiones.</p>
+                </div>
+                <div class="card">
+                    <h3>Era Moderna</h3>
+                    <p>La destilación permitió la producción de bebidas con mayor contenido alcohólico. Durante la Revolución Industrial, surgieron preocupaciones sobre el abuso del alcohol.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="clasificacion">
+            <h2>Clasificación Científica</h2>
+            <p>El alcohol etílico o etanol (C₂H₅OH) es el tipo de alcohol presente en las bebidas alcohólicas. Su clasificación varía según varios factores:</p>
+            
+            <div class="card-container">
+                <div class="card">
+                    <h3>Por Proceso de Elaboración</h3>
+                    <ul>
+                        <li><strong>Fermentados:</strong> Producidos por la acción de levaduras sobre azúcares (vino, cerveza)</li>
+                        <li><strong>Destilados:</strong> Obtenidos por destilación de líquidos fermentados (whisky, tequila, ron)</li>
+                        <li><strong>Fortificados:</strong> Vinos a los que se añade alcohol destilado (jerez, oporto)</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>Por Graduación Alcohólica</h3>
+                    <ul>
+                        <li><strong>Baja graduación:</strong> menos de 15% vol. (cerveza, vino)</li>
+                        <li><strong>Media graduación:</strong> entre 15-25% vol. (vinos fortificados)</li>
+                        <li><strong>Alta graduación:</strong> más de 25% vol. (destilados)</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>Composición Química</h3>
+                    <p>El etanol pertenece al grupo de los alcoholes, compuestos orgánicos que contienen el grupo hidroxilo (-OH). Su fórmula molecular es C₂H₅OH y es soluble tanto en agua como en lípidos, lo que explica su rápida absorción y distribución en el organismo.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="efectos">
+            <h2>Causas y Efectos del Consumo</h2>
+            
+            <h3>Causas del Consumo</h3>
+            <div class="card-container">
+                <div class="card">
+                    <h4>Factores Sociales</h4>
+                    <ul>
+                        <li>Presión de grupo</li>
+                        <li>Normalización cultural</li>
+                        <li>Celebraciones y eventos sociales</li>
+                        <li>Publicidad y marketing</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h4>Factores Psicológicos</h4>
+                    <ul>
+                        <li>Estrés y ansiedad</li>
+                        <li>Depresión</li>
+                        <li>Baja autoestima</li>
+                        <li>Búsqueda de sensaciones</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h4>Factores Genéticos</h4>
+                    <ul>
+                        <li>Predisposición familiar</li>
+                        <li>Variantes genéticas relacionadas con el metabolismo del alcohol</li>
+                        <li>Tendencia hereditaria a problemas de adicción</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <h3>Efectos en la Salud</h3>
+            <div class="card-container">
+                <div class="card">
+                    <h4>Efectos a Corto Plazo</h4>
+                    <ul>
+                        <li>Intoxicación etílica</li>
+                        <li>Alteraciones del juicio</li>
+                        <li>Descoordinación motora</li>
+                        <li>Náuseas y vómitos</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h4>Efectos a Largo Plazo</h4>
+                    <ul>
+                        <li>Daño hepático (cirrosis)</li>
+                        <li>Enfermedades cardiovasculares</li>
+                        <li>Trastornos neurológicos</li>
+                        <li>Mayor riesgo de cáncer</li>
+                        <li>Síndrome de dependencia alcohólica</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h4>Efectos Sociales</h4>
+                    <ul>
+                        <li>Problemas familiares y de pareja</li>
+                        <li>Bajo rendimiento laboral o académico</li>
+                        <li>Conductas de riesgo (conducir ebrio)</li>
+                        <li>Violencia y comportamiento agresivo</li>
+                        <li>Aislamiento social</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+        <section id="ayuda">
+            <h2>Instituciones de Gobierno Mexicano que Brindan Ayuda</h2>
+            
+            <div class="institution-card">
+                <h3>CONADIC (Comisión Nacional contra las Adicciones)</h3>
+                <p>Organismo encargado de promover y coordinar las acciones de los sectores público, social y privado para la prevención y el tratamiento de las adicciones.</p>
+                <p><strong>Línea de Ayuda:</strong> 800 911 2000</p>
+                <p><strong>Sitio web:</strong> <a href="#">www.gob.mx/salud/conadic</a></p>
+            </div>
+            
+            <div class="institution-card">
+                <h3>Centros de Integración Juvenil (CIJ)</h3>
+                <p>Red de atención profesional para la prevención, tratamiento y rehabilitación de adicciones con más de 100 unidades en todo el país.</p>
+                <p><strong>Línea de Ayuda:</strong> 55 5212 1212</p>
+                <p><strong>Sitio web:</strong> <a href="#">www.gob.mx/cij</a></p>
+            </div>
+            
+            <div class="institution-card">
+                <h3>IMSS - Servicios de Atención a las Adicciones</h3>
+                <p>El Instituto Mexicano del Seguro Social ofrece programas especializados para el tratamiento de adicciones dirigidos a sus derechohabientes.</p>
+                <p><strong>Sitio web:</strong> <a href="#">www.imss.gob.mx</a></p>
+            </div>
+            
+            <div class="institution-card">
+                <h3>IAPA (Instituto para la Atención y Prevención de las Adicciones)</h3>
+                <p>Organismo público descentralizado de la Ciudad de México que brinda atención en materia de adicciones.</p>
+                <p><strong>Sitio web:</strong> <a href="#">www.iapa.cdmx.gob.mx</a></p>
+            </div>
+        </section>
+        
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Si tienes dudas o necesitas más información, completa el siguiente formulario:</p>
+            
+            <form id="contactForm">
+                <div style="margin-bottom: 1rem;">
+                    <label for="nombre" style="display: block; margin-bottom: 0.5rem;">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" style="width: 100%; padding: 0.5rem; border: 1px solid #ddd; border-radius: 4px;">
+                </div>
+                
+                <div style="margin-bottom: 1rem;">
+                    <label for="email" style="display: block; margin-bottom: 0.5rem;">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" style="width: 100%; padding: 0.5rem; border: 1px solid #ddd; border-radius: 4px;">
+                </div>
+                
+                <div style="margin-bottom: 1rem;">
+                    <label for="mensaje" style="display: block; margin-bottom: 0.5rem;">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" style="width: 100%; padding: 0.5rem; border: 1px solid #ddd; border-radius: 4px;"></textarea>
+                </div>
+                
+                <button type="submit" style="background-color: #1e3c72; color: white; border: none; padding: 0.75rem 1.5rem; border-radius: 4px; cursor: pointer;">Enviar mensaje</button>
+            </form>
+        </section>
+    </div>
+    
+    <footer>
+        <p>&copy; 2025 Todo sobre el Alcohol | Información educativa</p>
+        <p>Este sitio web tiene propósitos informativos y educativos. No sustituye el consejo médico profesional.</p>
+    </footer>
+
+    <script>
+        // Funcionalidad básica del formulario
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Mensaje enviado correctamente. Gracias por contactarnos.');
+            this.reset();
+        });
+
+        // Comportamiento de navegación suave
+        document.querySelectorAll('nav a').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                
+                window.scrollTo({
+                    top: targetElement.offsetTop - 70,
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
